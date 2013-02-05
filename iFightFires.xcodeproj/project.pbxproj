@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45057F1416C1611C008E3026 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45057F1316C1611C008E3026 /* UIKit.framework */; };
+		45057F1616C1611C008E3026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45057F1516C1611C008E3026 /* Foundation.framework */; };
+		45057F1816C1611C008E3026 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45057F1716C1611C008E3026 /* CoreGraphics.framework */; };
+		45057F1E16C1611C008E3026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45057F1C16C1611C008E3026 /* InfoPlist.strings */; };
+		45057F2016C1611C008E3026 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45057F1F16C1611C008E3026 /* main.m */; };
+		45057F2416C1611C008E3026 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45057F2316C1611C008E3026 /* AppDelegate.m */; };
+		45057F2616C1611C008E3026 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2516C1611C008E3026 /* Default.png */; };
+		45057F2816C1611C008E3026 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2716C1611C008E3026 /* Default@2x.png */; };
+		45057F2A16C1611C008E3026 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2916C1611C008E3026 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45057F1016C1611C008E3026 /* iFightFires.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFightFires.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45057F1316C1611C008E3026 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		45057F1516C1611C008E3026 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		45057F1716C1611C008E3026 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45057F1B16C1611C008E3026 /* iFightFires-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iFightFires-Info.plist"; sourceTree = "<group>"; };
+		45057F1D16C1611C008E3026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		45057F1F16C1611C008E3026 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45057F2116C1611C008E3026 /* iFightFires-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iFightFires-Prefix.pch"; sourceTree = "<group>"; };
+		45057F2216C1611C008E3026 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45057F2316C1611C008E3026 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45057F2516C1611C008E3026 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		45057F2716C1611C008E3026 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		45057F2916C1611C008E3026 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45057F0D16C1611C008E3026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45057F1416C1611C008E3026 /* UIKit.framework in Frameworks */,
+				45057F1616C1611C008E3026 /* Foundation.framework in Frameworks */,
+				45057F1816C1611C008E3026 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45057F0716C1611C008E3026 = {
+			isa = PBXGroup;
+			children = (
+				45057F1916C1611C008E3026 /* iFightFires */,
+				45057F1216C1611C008E3026 /* Frameworks */,
+				45057F1116C1611C008E3026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45057F1116C1611C008E3026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45057F1016C1611C008E3026 /* iFightFires.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45057F1216C1611C008E3026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45057F1316C1611C008E3026 /* UIKit.framework */,
+				45057F1516C1611C008E3026 /* Foundation.framework */,
+				45057F1716C1611C008E3026 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45057F1916C1611C008E3026 /* iFightFires */ = {
+			isa = PBXGroup;
+			children = (
+				45057F2216C1611C008E3026 /* AppDelegate.h */,
+				45057F2316C1611C008E3026 /* AppDelegate.m */,
+				45057F1A16C1611C008E3026 /* Supporting Files */,
+			);
+			path = iFightFires;
+			sourceTree = "<group>";
+		};
+		45057F1A16C1611C008E3026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45057F1B16C1611C008E3026 /* iFightFires-Info.plist */,
+				45057F1C16C1611C008E3026 /* InfoPlist.strings */,
+				45057F1F16C1611C008E3026 /* main.m */,
+				45057F2116C1611C008E3026 /* iFightFires-Prefix.pch */,
+				45057F2516C1611C008E3026 /* Default.png */,
+				45057F2716C1611C008E3026 /* Default@2x.png */,
+				45057F2916C1611C008E3026 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45057F0F16C1611C008E3026 /* iFightFires */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45057F2D16C1611C008E3026 /* Build configuration list for PBXNativeTarget "iFightFires" */;
+			buildPhases = (
+				45057F0C16C1611C008E3026 /* Sources */,
+				45057F0D16C1611C008E3026 /* Frameworks */,
+				45057F0E16C1611C008E3026 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iFightFires;
+			productName = iFightFires;
+			productReference = 45057F1016C1611C008E3026 /* iFightFires.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45057F0816C1611C008E3026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Code 4";
+			};
+			buildConfigurationList = 45057F0B16C1611C008E3026 /* Build configuration list for PBXProject "iFightFires" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 45057F0716C1611C008E3026;
+			productRefGroup = 45057F1116C1611C008E3026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45057F0F16C1611C008E3026 /* iFightFires */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45057F0E16C1611C008E3026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45057F1E16C1611C008E3026 /* InfoPlist.strings in Resources */,
+				45057F2616C1611C008E3026 /* Default.png in Resources */,
+				45057F2816C1611C008E3026 /* Default@2x.png in Resources */,
+				45057F2A16C1611C008E3026 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45057F0C16C1611C008E3026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45057F2016C1611C008E3026 /* main.m in Sources */,
+				45057F2416C1611C008E3026 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		45057F1C16C1611C008E3026 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45057F1D16C1611C008E3026 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45057F2B16C1611C008E3026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		45057F2C16C1611C008E3026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45057F2E16C1611C008E3026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFightFires/iFightFires-Prefix.pch";
+				INFOPLIST_FILE = "iFightFires/iFightFires-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		45057F2F16C1611C008E3026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iFightFires/iFightFires-Prefix.pch";
+				INFOPLIST_FILE = "iFightFires/iFightFires-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45057F0B16C1611C008E3026 /* Build configuration list for PBXProject "iFightFires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45057F2B16C1611C008E3026 /* Debug */,
+				45057F2C16C1611C008E3026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45057F2D16C1611C008E3026 /* Build configuration list for PBXNativeTarget "iFightFires" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45057F2E16C1611C008E3026 /* Debug */,
+				45057F2F16C1611C008E3026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45057F0816C1611C008E3026 /* Project object */;
+}
