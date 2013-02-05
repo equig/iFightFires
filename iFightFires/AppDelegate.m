@@ -17,8 +17,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    BOOL modified = YES;
-    
     return YES;
 }
 
