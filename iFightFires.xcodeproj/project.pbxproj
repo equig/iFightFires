@@ -16,6 +16,8 @@
 		45057F2616C1611C008E3026 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2516C1611C008E3026 /* Default.png */; };
 		45057F2816C1611C008E3026 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2716C1611C008E3026 /* Default@2x.png */; };
 		45057F2A16C1611C008E3026 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45057F2916C1611C008E3026 /* Default-568h@2x.png */; };
+		E7A09F3416C45563000700EB /* ReportVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A09F3216C45563000700EB /* ReportVC.m */; };
+		E7A09F3516C45563000700EB /* ReportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A09F3316C45563000700EB /* ReportVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,9 @@
 		45057F2516C1611C008E3026 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		45057F2716C1611C008E3026 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		45057F2916C1611C008E3026 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7A09F3116C45563000700EB /* ReportVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReportVC.h; sourceTree = "<group>"; };
+		E7A09F3216C45563000700EB /* ReportVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReportVC.m; sourceTree = "<group>"; };
+		E7A09F3316C45563000700EB /* ReportVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReportVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,9 @@
 			isa = PBXGroup;
 			children = (
 				45057F2216C1611C008E3026 /* AppDelegate.h */,
+				E7A09F3116C45563000700EB /* ReportVC.h */,
+				E7A09F3216C45563000700EB /* ReportVC.m */,
+				E7A09F3316C45563000700EB /* ReportVC.xib */,
 				45057F2316C1611C008E3026 /* AppDelegate.m */,
 				45057F1A16C1611C008E3026 /* Supporting Files */,
 			);
@@ -154,6 +162,7 @@
 				45057F2616C1611C008E3026 /* Default.png in Resources */,
 				45057F2816C1611C008E3026 /* Default@2x.png in Resources */,
 				45057F2A16C1611C008E3026 /* Default-568h@2x.png in Resources */,
+				E7A09F3516C45563000700EB /* ReportVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +175,7 @@
 			files = (
 				45057F2016C1611C008E3026 /* main.m in Sources */,
 				45057F2416C1611C008E3026 /* AppDelegate.m in Sources */,
+				E7A09F3416C45563000700EB /* ReportVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +292,7 @@
 				45057F2F16C1611C008E3026 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
