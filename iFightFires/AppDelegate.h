@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ReportVC.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
