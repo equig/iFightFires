@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    //(ejq) potential way to add buttons to navigation bar:
+    //http://stackoverflow.com/questions/1219779/how-to-add-a-right-button-to-a-uinavigationcontroller
+
 }
 
 - (void)didReceiveMemoryWarning
