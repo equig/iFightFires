@@ -18,7 +18,6 @@
     self.window.rootViewController = [[ReportVC alloc]init];
     [self.window makeKeyAndVisible];
     
-    //I AM WRITING FREAKING COMMENTS -- Sam
     
     return YES;
 }
